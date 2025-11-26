@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação de e‑commerce fictícia construída com **React**, onde são consumidos dados da **Fake Store API** para exibição de produtos, detalhes e gerenciamento de carrinho de compras no `localStorage`.
 
----
+---visualizar: (https://richeliane-moura.github.io/MinhaLoja-React/
 
 ## 🚀 Funcionalidades
 
