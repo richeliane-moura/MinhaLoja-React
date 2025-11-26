@@ -1,0 +1,86 @@
+/* Produto Container */
+.produto-container {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Botão Voltar */
+.btn-voltar {
+  margin-bottom: 16px;
+  background-color: #6b7280;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-voltar:hover {
+  background-color: #4b5563;
+}
+
+/* Produto Card */
+.produto-card {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.produto-card img {
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.produto-card h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.produto-card p {
+  margin-bottom: 8px;
+  color: #4b5563;
+}
+
+.produto-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 16px;
+}
+
+/* Botão Adicionar ao Carrinho */
+.btn-adicionar {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-adicionar:hover {
+  background-color: #1e40af;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 600px) {
+  .produto-card img {
+    height: 150px; /* Ajusta a altura da imagem para telas pequenas */
+  }
+
+  .produto-card h1 {
+    font-size: 18px; /* Ajusta o tamanho do título para telas pequenas */
+  }
+
+  .produto-price {
+    font-size: 20px; /* Ajusta o tamanho do preço */
+  }
+
+  .btn-adicionar {
+    padding: 10px; /* Ajusta o padding do botão */
+  }
+}
+
