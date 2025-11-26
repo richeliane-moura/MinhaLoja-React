@@ -27,13 +27,6 @@ Este projeto é uma aplicação de e‑commerce fictícia construída com **Reac
 
 ## 🔗 Endpoints da API (FakeStoreAPI)
 
-Aqui estão alguns dos principais endpoints que o projeto consome:
-
-| Rota | Descrição |
-|---|---|
-| `GET /products` | Obtém a lista de todos os produtos |
-| `GET /products/:id` | Obtém um produto específico pelo ID |
-
 Você pode ver a documentação completa da FakeStoreAPI no [repositório oficial](https://github.com/keikaavousi/fake-store-api).
 
 ---
